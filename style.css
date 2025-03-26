@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(to right, #ec96a5, white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.same{
+    height: 5cm;
+    width: 7cm;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: pink;
+    border: 2px solid #B2EBF2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 10px;
+    top: -84%;
+}
+
+h3 {
+    font-family: 'pacifico', cursive;
+    color: #473737;
+}
+
+.box5 img{
+    height: 8rem;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px pink);
+}
+
+.box1{
+    z-index: 5;
+}
+
+.box2{
+    z-index: 4;
+}
+
+.box3{
+    z-index: 3;
+}
+
+.box4{
+    z-index: 2;
+}
+.box5{
+    z-index: 1;
+}
+
+button{
+    position: absolute;
+    bottom: 5cm;
+    width: 10rem;
+    height: 2rem;
+    color: pink;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+button:active{
+    transform: scale(0.98);
+}
